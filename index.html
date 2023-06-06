@@ -4,20 +4,76 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Complete SASS</title>
-    <link rel="stylesheet" href="./css/index.css" />
+    <title>CSSLibrary</title>
+
+    <link rel="stylesheet" href="/css/index.css" />
   </head>
   <body>
-
-    <nav class="navbar-primary text-white mb-4">
+    <!-- Navbar -->
+    <nav class="navbar-secondary">
       <div class="container">
-        <h2 class="site-title">CSSLibrary</h2>
-      <p class="ml-1">A light weight css library for dev Manish Kumar</p>
+        <h1 class="site-title">CSSLibrary</h1>
+        <ul class="display-f">
+          <li class="ml-1 text-hover-secondary">
+            <a href="#work">Our Work</a>
+          </li>
+          <li class="ml-1 text-hover-secondary">
+            <a href="#about">About Us</a>
+          </li>
+        </ul>
       </div>
     </nav>
-    <div class="container">
+
+    <!-- intor -->
+    <div class="container mt-5">
+      <div class="row justify-center">
+        <div class="col-12-xs col-5-md">
+          <h2>
+            <div class="font-xxl">Black-Belt</div>
+            <div class="font-xxl text-secondary">Your Website</div>
+          </h2>
+          <p class="text-gray mt-2 mb-3">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa,
+            blanditiis.
+          </p>
+          <a
+            href="#work"
+            class="btn-outlined-secondary text-secondary text-hover-white"
+            >View Our Work</a
+          >
+        </div>
+        <div class="col-12-xs col-5-md">
+          <img src="/img/friendly-chatbot.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <!-- About Section -->
+    <section id="about" class="bg-secondary-light-9 mt-5 pt-4 pb-0">
+      <div class="container">
+        <h2 class="mb-2">About Furescss Design</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut pariatur
+          odit cupiditate delectus eos nobis sapiente, commodi nulla aliquid
+          quo. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Consequuntur, error?
+        </p>
+        <p class="mt-1">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est illo
+          cumque, dicta beatae, sed maiores, mollitia deserunt iusto porro
+          reprehenderit laboriosam minima. Error voluptas illum rerum sapiente
+          amet rem aut?
+        </p>
+      </div>
+    </section>
+
+    <!-- Demo -->
+
+    <section class=" mt-0">
+      <h1 class="mt-5 mb-3 text-center font-xl">Demo</h1>
+      <div class="container bg-primary-light-7">
       <!-- colors -->
-      <h2>Colors</h2>
+      <h2 class="mt-3">Colors</h2>
       <span class="text-primary">Primary Text</span>
       <span class="text-secondary">secondary Text</span>
       <span class="text-error">error Text</span>
@@ -154,5 +210,64 @@
 
       <!-- utilities -->
     </div>
+    </section>
+
+    <!-- work section -->
+    <section id="word" class="mt-5">
+      <div class="container">
+        <h2 class="mb-2">Some of Our Work</h2>
+        <div class="row gap-2">
+          <div class="col-12-xs col-6-md col-3-lg">
+            <div class="card p-0">
+              <h3 class="card-title m-1">Dream City</h3>
+              <img src="/img/pedestrians-g694cc8f72_1280.jpg" alt="" />
+              <p class="m-1">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Adipisci, quos.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-12-xs col-6-md col-3-lg">
+            <div class="card p-0">
+              <h3 class="card-title m-1">Dream City</h3>
+              <img src="/img/pedestrians-g694cc8f72_1280.jpg" alt="" />
+              <p class="m-1">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Adipisci, quos.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-12-xs col-6-md col-3-lg">
+            <div class="card p-0">
+              <h3 class="card-title m-1">Dream City</h3>
+              <img src="/img/pedestrians-g694cc8f72_1280.jpg" alt="" />
+              <p class="m-1">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Adipisci, quos.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-12-xs col-6-md col-3-lg">
+            <div class="card p-0">
+              <h3 class="card-title m-1">Dream City</h3>
+              <img src="/img/pedestrians-g694cc8f72_1280.jpg" alt="" />
+              <p class="m-1">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Adipisci, quos.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="bg-gray-light-7 pt-3 pb-3 mt-5">
+      <div class="container">copyright 2023 CSSLibrary Design</div>
+    </footer>
   </body>
 </html>
+

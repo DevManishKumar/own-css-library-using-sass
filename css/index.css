@@ -51,6 +51,11 @@ img {
 .justify-center {
   justify-content: center;
 }
+.items-center {
+  align-items: center;
+}
+
+
 
 @media (min-width: 0px) {
   .col-12-xs {
@@ -92,6 +97,11 @@ img {
     width: 25%;
   }
 }
+
+.text-center {
+  text-align: center;
+}
+
 .text-primary {
   color: #326dee;
 }
